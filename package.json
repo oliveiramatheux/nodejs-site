@@ -1,0 +1,22 @@
+{
+  "name": "mysite",
+  "version": "1.0.0",
+  "description": "My first site with nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliveiramatheux/nodejs-site.git"
+  },
+  "author": "oliveiramatheux",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oliveiramatheux/nodejs-site/issues"
+  },
+  "homepage": "https://github.com/oliveiramatheux/nodejs-site#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
