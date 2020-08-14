@@ -10,4 +10,6 @@ router.get('/', function(req, res){
 app.use('/', router);
 app.listen(process.env.port || 3000);
 
+require('./controllers/authControllers')(app);
+
 console.log("Servidor rodando!");
